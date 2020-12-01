@@ -1,0 +1,60 @@
+{
+    "Actor": {
+        "types": ["Vislae", "NPC"],
+        "templates": {
+            "vertula-kada": {
+                "order": "",
+                "heart": "",
+                "forte": "",
+                "soul": "",
+                "foundation": "",
+                "arc": ""
+            },
+            "background": {
+                "biography": "",
+                "hairColor": ""
+            },
+            "statistics": {
+                "certes": {
+                    "accuracy": "",
+                    "movement": "",
+                    "physicality": "",
+                    "perception": ""
+                },
+                "qualia": {
+                    "sorcery": "",
+                    "interaction": "",
+                    "intellect": "",
+                    "sortilege": ""
+                }
+            }
+        },
+        "Vislae": {
+            "templates": ["vertula-kada", "statistics", "background"],
+            "goodness": {
+                "value": 5,
+                "max": 10
+            }
+        },
+        "NPC": {
+            "templates": ["statistics", "background"]
+        }
+    },
+    "Item": {
+        "types": ["weapon", "spell"],
+        "templates": {
+            "rarity": {
+                "rarity": "Common",
+                "price": 20
+            }
+        },
+        "weapon": {
+            "templates": ["rarity"],
+            "damage": 5
+        },
+        "spell": {
+            "templates": ["rarity"],
+            "cost": 2
+        }
+    }
+}
