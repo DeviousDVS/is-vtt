@@ -5,9 +5,9 @@
     "version": "0.0.1",
     "templateVersion": 2,
     "author": "Darryn van Someren",
-    "scripts": ["scripts/system.js"],
-    "esmodules": ["scripts/system-module-1.mjs"],
-    "styles": ["styles/system-styles-1.css", "styles/system-styles-2.css"],
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
     "packs": [
         {
             "name": "monsters",
