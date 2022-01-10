@@ -2,7 +2,7 @@
     "name": "invisible-sun",
     "title": "Invisible Sun",
     "description": "The Invisible Sun Roleplaying Game",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "templateVersion": 2,
     "author": "DeviousDVS",
     "scripts": [],
@@ -20,5 +20,5 @@
     "compatibleCoreVersion": "9",
     "url": "https://github.com/DeviousDVS/is-vtt",
     "manifest": "https://deviousdvs.github.io/is-vtt/system.json",
-    "download": "https://github.com/DeviousDVS/dj-mythus-vtt/archive/refs/tags/is-vtt-v0.0.2-alpha.zip"
+    "download": "https://github.com/DeviousDVS/is-vtt/archive/refs/tags/is-vtt-v0.0.3-alpha.zip"
 }
