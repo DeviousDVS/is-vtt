@@ -9,6 +9,7 @@
     "esmodules": ["scripts/system.js"],
     "styles": [],
     "packs": [],
+    "languages": [],
     "socket": false,
     "initiative": "1d20",
     "gridDistance": 10,
