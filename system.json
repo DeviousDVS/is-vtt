@@ -2,11 +2,11 @@
     "name": "invisible-sun",
     "title": "Invisible Sun",
     "description": "The Invisible Sun Roleplaying Game",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "templateVersion": 2,
-    "author": "Darryn van Someren",
+    "author": "DeviousDVS",
     "scripts": [],
-    "esmodules": [],
+    "esmodules": ["scripts/system.js"],
     "styles": [],
     "packs": [],
     "socket": false,
@@ -15,7 +15,9 @@
     "gridUnits": "ft",
     "primaryTokenAttribute": "resources.health",
     "secondaryTokenAttribute": "resources.power",
-    "url": "https://github.com/DeviousDVS/is-vtt/",
-    "manifest": "https://github.com/DeviousDVS/is-vtt/system.json",
-    "download": "https://github.com/DeviousDVS/is-vtt/archive/master.zip"
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9",
+    "url": "https://github.com/DeviousDVS/is-vtt",
+    "manifest": "https://deviousdvs.github.io/is-vtt/system.json",
+    "download": "https://github.com/DeviousDVS/dj-mythus-vtt/archive/refs/tags/is-vtt-v0.0.2-alpha.zip"
 }
