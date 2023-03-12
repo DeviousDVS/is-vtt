@@ -19,6 +19,6 @@
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "9",
     "url": "https://github.com/DeviousDVS/is-vtt",
-    "manifest": "https://deviousdvs.github.io/is-vtt/system.json",
+    "manifest": "https://deviousdvs.github.io/is-vtt/master/system.json",
     "download": "https://github.com/DeviousDVS/is-vtt/archive/refs/tags/is-vtt-v0.0.3-alpha.zip"
 }
