@@ -12,7 +12,7 @@
 
 // import { FateX } from "./config";
 // import { ActorFate } from "./module/actor/ActorFate";
-// import { CharacterSheet } from "./module/actor/character/CharacterSheet";
+import { CharacterSheet } from "../templates/actor/character.html";
 // import { HandlebarsHelpers } from "./module/helper/HandlebarsHelpers";
 // import { TemplatePreloader } from "./module/helper/TemplatePreloader";
 // import { AspectSheet } from "./module/item/aspect/AspectSheet";
@@ -58,11 +58,11 @@
 //     Actors.unregisterSheet("core", ActorSheet);
 //     Items.unregisterSheet("core", ItemSheet);
 
-//     // Register FateX actor sheets
-//     Actors.registerSheet("FateX", CharacterSheet, {
-//         types: ["character"],
-//         makeDefault: true,
-//     });
+// Register FateX actor sheets
+Actors.registerSheet("IS", CharacterSheet, {
+    types: ["character"],
+    makeDefault: true,
+});
 
 //     // Register FateX item sheets
 //     Items.registerSheet("FateX", StressSheet, {
